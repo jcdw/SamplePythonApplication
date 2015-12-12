@@ -1,5 +1,5 @@
-def hello():
-    print("Hello world")
+def hello(param):
+    print(param)
 
 if __name__ == '__main__':
-    hello();
+    hello("yo");
